@@ -1,0 +1,11 @@
+@startuml
+
+package sample <<Folder>>{
+class Main extends javafx.application.Application
+class Controller implements javafx.fxml.Initializable
+interface Aggregate
+interface Iterator
+class ImageCollection implements Aggregate
+}
+
+@enduml
